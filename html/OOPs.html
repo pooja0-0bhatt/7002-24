@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>1D Array - C++ Programs</title>
+  <link rel="stylesheet" href="../css/page.css" />
+  <script src="../code/oops.js"></script>
+</head>
+
+<body>
+
+  <!-- Header (same across all pages) -->
+  <header class="nav">
+    <img src="../clg-logo.png" alt="PGGC 11 Logo" />
+    <p>POST GRADUATE GOVERNMENT COLLEGE, SECTOR 11, CHANDIGARH</p>
+  </header>
+
+  <nav class="topic-nav">
+    <a href="../html/2darray.html">2D Array</a>
+    <a href="../html/Basic.html">Basic Programming Constructs</a>
+    <a href="../html/DataConversion.html">Data Conversion</a>
+    <a href="../html/FileHandling.html">File Handling</a>
+    <a href="../html/Function.html">Functions</a>
+    <a href="../html/Inheritence.html">Inheritance</a>
+    <a href="../html/OOPs.html">OOPs</a>
+    <a href="../html/OperatorOverLoading.html">Operator Overloading</a>
+    <a href="../html/1darray.html">1D Array</a>
+    <a href="../html/Strings.html">Strings</a>
+    <a href="../html/VirtualFun.html">Virtual Functions</a>
+  </nav>
+
+
+  <!-- Layout -->
+  <div class="topic-page">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h3>Object Oriented Programming</h3>
+      <ul>
+        <li><a href="#" onclick="loadQuestion(1)">Q1</a></li>
+                <li><a href="#" onclick="loadQuestion(2)">Q2</a></li>
+                <li><a href="#" onclick="loadQuestion(3)">Q3</a></li>
+                <li><a href="#" onclick="loadQuestion(4)">Q4</a></li>
+                <li><a href="#" onclick="loadQuestion(5)">Q5</a></li>
+                <li><a href="#" onclick="loadQuestion(6)">Q6</a></li>
+                <li><a href="#" onclick="loadQuestion(7)">Q7</a></li>
+                <li><a href="#" onclick="loadQuestion(8)">Q8</a></li>
+                <li><a href="#" onclick="loadQuestion(9)">Q9</a></li>
+                <li><a href="#" onclick="loadQuestion(10)">Q10</a></li>
+                <li><a href="#" onclick="loadQuestion(11)">Q11</a></li>
+                <li><a href="#" onclick="loadQuestion(12)">Q12</a></li>
+                <li><a href="#" onclick="loadQuestion(13)">Q13</a></li>
+                <li><a href="#" onclick="loadQuestion(14)">Q14</a></li>
+                <li><a href="#" onclick="loadQuestion(15)">Q15</a></li>
+                <li><a href="#" onclick="loadQuestion(16)">Q16</a></li>
+                <li><a href="#" onclick="loadQuestion(17)">Q17</a></li>
+                <li><a href="#" onclick="loadQuestion(18)">Q18</a></li>
+                <li><a href="#" onclick="loadQuestion(19)">Q19</a></li>
+                <li><a href="#" onclick="loadQuestion(20)">Q20</a></li>
+                <li><a href="#" onclick="loadQuestion(21)">Q21</a></li>
+                <li><a href="#" onclick="loadQuestion(22)">Q22</a></li>
+                <li><a href="#" onclick="loadQuestion(23)">Q23</a></li>
+                <li><a href="#" onclick="loadQuestion(24)">Q24</a></li>
+                <li><a href="#" onclick="loadQuestion(25)">Q25</a></li>
+                <li><a href="#" onclick="loadQuestion(26)">Q26</a></li>
+                <li><a href="#" onclick="loadQuestion(27)">Q27</a></li>
+                <li><a href="#" onclick="loadQuestion(28)">Q28</a></li>
+                <li><a href="#" onclick="loadQuestion(29)">Q29</a></li>
+                <li><a href="#" onclick="loadQuestion(30)">Q30</a></li>
+                <li><a href="#" onclick="loadQuestion(31)">Q31</a></li>
+               
+    </aside>
+
+    <!-- Content Area -->
+    <main class="content">
+      <!-- Default message -->
+      <div class="question default">
+        <h2>Select a question</h2>
+        <p>The code will appear here when you choose a question from the sidebar.</p>
+      </div>
+    
+      <!-- Dynamic question display -->
+      <div class="question" id="question-container" style="display: none;">
+        <h2 id="question-title"></h2>
+    
+        <h3>Source Code</h3>
+        <pre><code id="code-block"></code></pre>
+    
+        <h3>Expected Output</h3>
+        <pre id="output-block"></pre>
+      </div>
+    </main>
+
+  </div>
+</body>
+
+</html>
